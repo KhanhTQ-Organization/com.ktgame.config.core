@@ -1,0 +1,14 @@
+{
+    "name": "com.ktgame.config.core",
+    "rootNamespace": "com.ktgame.config.core",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
