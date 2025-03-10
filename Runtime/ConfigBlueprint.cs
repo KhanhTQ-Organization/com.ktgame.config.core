@@ -24,37 +24,34 @@ namespace com.ktgame.config.core
 
         public IConfigBlueprint SetInt(string id, int value)
         {
-            if (_intConfigs.ContainsKey(id))
+            if (!_intConfigs.TryAdd(id, value))
             {
                 _intConfigs[id] = value;
                 return this;
             }
 
-            _intConfigs.Add(id, value);
             return this;
         }
 
         public IConfigBlueprint SetFloat(string id, float value)
         {
-            if (_floatConfigs.ContainsKey(id))
+            if (!_floatConfigs.TryAdd(id, value))
             {
                 _floatConfigs[id] = value;
                 return this;
             }
 
-            _floatConfigs.Add(id, value);
             return this;
         }
 
         public IConfigBlueprint SetString(string id, string value)
         {
-            if (_stringConfigs.ContainsKey(id))
+            if (!_stringConfigs.TryAdd(id, value))
             {
                 _stringConfigs[id] = value;
                 return this;
             }
 
-            _stringConfigs.Add(id, value);
             return this;
         }
 
