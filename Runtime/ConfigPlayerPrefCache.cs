@@ -28,6 +28,7 @@ namespace com.ktgame.config.core
             {
                 PlayerPrefs.SetInt(key, blueprint.GetBool(key) ? 1 : 0);
             }
+            
         }
 
         public void Load(IConfigBlueprint blueprint)
