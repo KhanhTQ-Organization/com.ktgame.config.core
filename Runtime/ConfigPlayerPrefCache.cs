@@ -52,6 +52,7 @@ namespace com.ktgame.config.core
             {
                 blueprint.SetBool(key, PlayerPrefs.GetInt(key, blueprint.GetBool(key) ? 1 : 0) == 1);
             }
+            
         }
 
         #endregion
