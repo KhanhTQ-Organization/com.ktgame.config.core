@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/KhanhTQ-hub/com.ktgame.config.core/compare/v1.0.3...v1.0.4) (2025-03-11)
+
+
+### Reverts
+
+* Revert "fix: change log" ([b6041e4](https://github.com/KhanhTQ-hub/com.ktgame.config.core/commit/b6041e4d750ac3a5416fce5abb1945af8404790d))
+
 ## [1.0.3](https://github.com/KhanhTQ-hub/com.ktgame.config.core/compare/v1.0.2...v1.0.3) (2025-03-10)
 
 
