@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/KhanhTQ-Organization/com.ktgame.config.core/compare/v1.0.4...v1.0.5) (2025-07-04)
+
+
+### Bug Fixes
+
+* update scope ([5dabfce](https://github.com/KhanhTQ-Organization/com.ktgame.config.core/commit/5dabfcef7c60ab8cd38a5dec0f3e42beaba4266f))
+
 ## [1.0.4](https://github.com/KhanhTQ-hub/com.ktgame.config.core/compare/v1.0.3...v1.0.4) (2025-03-11)
 
 
